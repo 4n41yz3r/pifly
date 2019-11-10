@@ -9,13 +9,6 @@ namespace pifly
         float z;
     };
 
-    struct Vector4 {
-        float w;
-        float x;
-        float y;
-        float z;
-    };
-
     template <class T>
     class Sensor {
         public:
