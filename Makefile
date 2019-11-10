@@ -1,5 +1,5 @@
 CXX=g++
-CXXFLAGS=-Wall -g -O2 
+CXXFLAGS=-Wall -g -O2
 CXX_OPTS= 
 
 INSTALL=install
