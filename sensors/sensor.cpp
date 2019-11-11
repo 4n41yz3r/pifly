@@ -1,4 +1,4 @@
-#include "Ahrs.h"
+#include "sensor.h"
 
 namespace pifly
 {

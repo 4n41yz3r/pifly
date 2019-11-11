@@ -1,7 +1,7 @@
 #ifndef _MARG_H_
 #define _MARG_H_
 
-#include "Sensor.h"
+#include "sensor.h"
 
 namespace pifly
 {

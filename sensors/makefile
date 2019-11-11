@@ -3,7 +3,7 @@ AR=ar
 CXXFLAGS=-Wall -g -O2
 CXX_OPTS=-c
 
-SOURCES=Sensor.cpp Marg.cpp Ahrs.cpp
+SOURCES=sensor.cpp marg.cpp ahrs.cpp
 OBJECTS=$(SOURCES:.cpp=.o)
 
 LIB=sensors.a
