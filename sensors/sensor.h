@@ -3,14 +3,16 @@
 
 namespace pifly
 {
-    struct Vector3 {
+    struct Vector3
+    {
         float x;
         float y;
         float z;
     };
 
     template <class T>
-    class Sensor {
+    class Sensor
+    {
         public:
             virtual T getValue() = 0;
     };

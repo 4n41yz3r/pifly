@@ -4,7 +4,8 @@
 using namespace std;
 using namespace pifly;
 
-int main() {
+int main()
+{
     cout << "Hello!" << endl;
     return 0;
 }

@@ -3,20 +3,23 @@
 
 namespace pifly
 {
-    struct Quaternion {
+    struct Quaternion
+    {
         float w;
         float x;
         float y;
         float z;
     };
     
-    struct Attitude {
+    struct Attitude
+    {
         float yaw;
         float pitch;
         float roll;
     };    
 
-    class Ahrs {
+    class Ahrs
+    {
         public:
             virtual void initialize() = 0;
             virtual void update() = 0;

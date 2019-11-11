@@ -5,7 +5,8 @@
 
 namespace pifly
 {
-    class Marg {
+    class Marg
+    {
         public:
             virtual void initialize() = 0;
             virtual void update() = 0;
